@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bryonnicoson.droidcafe">
+    package="com.bryonnicoson.droidcafewithsettings">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.bryonnicoson.droidcafewithsettings.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,12 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OrderActivity"
+        <activity android:name="com.bryonnicoson.droidcafewithsettings.OrderActivity"
             android:label="Order Activity"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.bryonnicoson.droidcafewithsettings.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.bryonnicoson.droidcafewithsettings.MainActivity" />
         </activity>
     </application>
 

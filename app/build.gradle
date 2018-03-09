@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.bryonnicoson.droidcafe"
+        applicationId "com.bryonnicoson.droidcafewithsettings"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1

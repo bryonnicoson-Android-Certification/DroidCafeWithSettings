@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/padding_regular"
-    tools:context="com.bryonnicoson.droidcafe.OrderActivity">
+    tools:context="com.bryonnicoson.droidcafewithsettings.OrderActivity">
 
     <TextView
         android:id="@+id/order_intro_text"

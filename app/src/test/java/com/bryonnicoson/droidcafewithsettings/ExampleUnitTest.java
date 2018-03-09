@@ -1,4 +1,4 @@
-package com.bryonnicoson.droidcafe;
+package com.bryonnicoson.droidcafewithsettings;
 
 import org.junit.Test;
 

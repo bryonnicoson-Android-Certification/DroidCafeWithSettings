@@ -1,4 +1,4 @@
-package com.bryonnicoson.droidcafe;
+package com.bryonnicoson.droidcafewithsettings;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.bryonnicoson.droidcafe", appContext.getPackageName());
+        assertEquals("com.bryonnicoson.droidcafewithsettings", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.bryonnicoson.droidcafe;
+package com.bryonnicoson.droidcafewithsettings;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
